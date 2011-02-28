@@ -14,4 +14,8 @@ class PagesController < ApplicationController
   def jim
   end
 
+  def help
+    @title = "Help"
+  end
+
 end
